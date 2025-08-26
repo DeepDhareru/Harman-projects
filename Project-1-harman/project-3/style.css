@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: lavender;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #4b0082;
+}
+
+#drawingArea {
+  border: 2px solid #333;
+  background: #f9f9f9;
+  cursor: crosshair;
+  transition: background 0.3s ease;
+}
+
+#drawingArea:hover {
+  background: #e6e6fa;
+}
