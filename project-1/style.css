@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #333;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  /* width: 400px; */
+  text-align: center;
+}
+
+.container3{
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2575fc;
+}
+
+textarea {
+  width: 80%;
+  height: 120px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #6a11cb;
+  border-radius: 8px;
+  resize: none;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 8px rgba(37,117,252,0.5);
+}
+
+p strong {
+  color: #6a11cb;
+}
+
+#charCount {
+  color: #2575fc;
+  font-weight: bold;
+}
+
+/* 2 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2575fc;
+}
+
+select {
+  padding: 6px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid #6a11cb;
+  outline: none;
+}
+
+select:focus {
+  border-color: #2575fc;
+}
+
+#productList {
+  list-style: none;
+  padding: 0;
+}
+
+#productList li {
+  padding: 10px;
+  margin: 6px 0;
+  background: #f4f4f4;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+#productList li:hover {
+  background: #e0e0e0;
+}
+
+/* 3 */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: lavender;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #4b0082;
+}
+
+#drawingArea {
+  border: 2px solid #333;
+  background: #f9f9f9;
+  cursor: crosshair;
+  transition: background 0.3s ease;
+}
+
+#drawingArea:hover {
+  background: #e6e6fa;
+}
